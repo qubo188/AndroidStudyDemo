@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="此 布局 带 Menu切换，点击系统Menu键"
+        android:textColor="#ff2e0a"
+        android:textSize="17dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#e0e0da">
+
+        <Button
+            android:id="@+id/menu06_id"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/menu_style"
+            android:text="ItemAnimator"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/menu05_id"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/menu_style"
+            android:text="staggered"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/menu03_id"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/menu_style"
+            android:text="GridView"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/menu02_id"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/menu_style"
+            android:text="hor_GridView"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/menu01_id"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/menu_style"
+            android:text="菜单"
+            android:textColor="#ffffff" />
+
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecycleViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
